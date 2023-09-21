@@ -1,0 +1,148 @@
+[36m2023-09-21 12:57:12.553 +07 0001 DEBU[0m [bccsp] [36;1mGetDefault[0m -> Before using BCCSP, please call InitFactories(). Falling back to bootBCCSP.
+[36m2023-09-21 12:57:12.554 +07 0002 DEBU[0m [bccsp] [36;1mGetDefault[0m -> Before using BCCSP, please call InitFactories(). Falling back to bootBCCSP.
+[36m2023-09-21 12:57:12.557 +07 0003 DEBU[0m [bccsp] [36;1mGetDefault[0m -> Before using BCCSP, please call InitFactories(). Falling back to bootBCCSP.
+[36m2023-09-21 12:57:12.558 +07 0004 DEBU[0m [bccsp_sw] [36;1mopenKeyStore[0m -> KeyStore opened at [/Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore]...done
+[36m2023-09-21 12:57:12.558 +07 0005 DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Reading directory /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts
+[36m2023-09-21 12:57:12.558 +07 0006 DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Inspecting file /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem
+[36m2023-09-21 12:57:12.558 +07 0007 DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Reading directory /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/cacerts
+[36m2023-09-21 12:57:12.558 +07 0008 DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Inspecting file /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem
+[36m2023-09-21 12:57:12.558 +07 0009 DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Reading directory /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/admincerts
+[36m2023-09-21 12:57:12.558 +07 000a DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Inspecting file /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/admincerts/Admin@org1.example.com-cert.pem
+[36m2023-09-21 12:57:12.559 +07 000b DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Reading directory /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts
+[36m2023-09-21 12:57:12.559 +07 000c DEBU[0m [msp] [36;1mgetMspConfig[0m -> Intermediate certs folder not found at [/Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts]. Skipping. [stat /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts: no such file or directory]
+[36m2023-09-21 12:57:12.559 +07 000d DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Reading directory /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlscacerts
+[36m2023-09-21 12:57:12.559 +07 000e DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Inspecting file /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlscacerts/tlsca.org1.example.com-cert.pem
+[36m2023-09-21 12:57:12.559 +07 000f DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Reading directory /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts
+[36m2023-09-21 12:57:12.559 +07 0010 DEBU[0m [msp] [36;1mgetMspConfig[0m -> TLS intermediate certs folder not found at [/Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts]. Skipping. [stat /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts: no such file or directory]
+[36m2023-09-21 12:57:12.559 +07 0011 DEBU[0m [msp] [36;1mgetPemMaterialFromDir[0m -> Reading directory /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls
+[36m2023-09-21 12:57:12.559 +07 0012 DEBU[0m [msp] [36;1mgetMspConfig[0m -> crls folder not found at [/Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls]. Skipping. [stat /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls: no such file or directory]
+[36m2023-09-21 12:57:12.559 +07 0013 DEBU[0m [msp] [36;1mgetMspConfig[0m -> MSP configuration file not found at [/Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/config.yaml]: [stat /Users/senghuychea/Desktop/Hyper/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/config.yaml: no such file or directory]
+[36m2023-09-21 12:57:12.559 +07 0014 DEBU[0m [msp] [36;1mnewBccspMsp[0m -> Creating BCCSP-based MSP instance
+[36m2023-09-21 12:57:12.559 +07 0015 DEBU[0m [msp] [36;1mNew[0m -> Creating Cache-MSP instance
+[36m2023-09-21 12:57:12.559 +07 0016 DEBU[0m [msp] [36;1mloadLocalMSP[0m -> Created new local MSP
+[36m2023-09-21 12:57:12.559 +07 0017 DEBU[0m [msp] [36;1mSetup[0m -> Setting up MSP instance Org1MSP
+[36m2023-09-21 12:57:12.559 +07 0018 DEBU[0m [msp.identity] [36;1mnewIdentity[0m -> Creating identity instance for cert -----BEGIN CERTIFICATE-----
+MIICUzCCAfigAwIBAgIRAOKcz/RjcO5fxGS9IrhnjA8wCgYIKoZIzj0EAwIwczEL
+MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+cmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+Lm9yZzEuZXhhbXBsZS5jb20wHhcNMjMwOTIxMDU0OTAwWhcNMzMwOTE4MDU0OTAw
+WjBzMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+U2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEcMBoGA1UE
+AxMTY2Eub3JnMS5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IA
+BGENhFuYg7ZSyN18CDfB1t23AK+CFVzibj0wMgFRqNot39JJNruKHDf482x46ifL
+c6XDwTC8NRkJ7RuyTyfKU2qjbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAU
+BggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNVHQ4EIgQg
+skNMBK1Exn8hwhRpdn9Abcw4xRFXvJalePxDmXrVeOowCgYIKoZIzj0EAwIDSQAw
+RgIhAKbyt1bak6coSiXBhQh8pUu+V4tEStcmb5hoyjxSWte6AiEAtcDDtTg2tLvo
+amA7ZKIm1F3T7j19EEwbE4OzR42Yrvo=
+-----END CERTIFICATE-----
+[36m2023-09-21 12:57:12.560 +07 0019 DEBU[0m [msp.identity] [36;1mnewIdentity[0m -> Creating identity instance for cert -----BEGIN CERTIFICATE-----
+MIICGjCCAcCgAwIBAgIRAO49z+beFL4sZEmpz45mOb8wCgYIKoZIzj0EAwIwczEL
+MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+cmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+Lm9yZzEuZXhhbXBsZS5jb20wHhcNMjMwOTIxMDU0OTAwWhcNMzMwOTE4MDU0OTAw
+WjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+U2FuIEZyYW5jaXNjbzEfMB0GA1UEAwwWQWRtaW5Ab3JnMS5leGFtcGxlLmNvbTBZ
+MBMGByqGSM49AgEGCCqGSM49AwEHA0IABN9PJgffXheazWF/h33N+AG2BuQN8p58
+erN4o8IA5G7U9qsYbiOdvtImAeAxSCdhZui9NNBtigHeofKAc1cJ4OujTTBLMA4G
+A1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAILJDTAStRMZ/
+IcIUaXZ/QG3MOMURV7yWpXj8Q5l61XjqMAoGCCqGSM49BAMCA0gAMEUCIQDqdJ/m
+F4fJy+bgjtLL736+4WkCFfhkciU0lvtCguhRxAIgAt/gBYP6yOgRJVhDtorteg+s
+H4Zvm1JNda+t4M5Fw9A=
+-----END CERTIFICATE-----
+[36m2023-09-21 12:57:12.560 +07 001a DEBU[0m [msp.identity] [36;1mnewIdentity[0m -> Creating identity instance for cert -----BEGIN CERTIFICATE-----
+MIICGjCCAcCgAwIBAgIRAO49z+beFL4sZEmpz45mOb8wCgYIKoZIzj0EAwIwczEL
+MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+cmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+Lm9yZzEuZXhhbXBsZS5jb20wHhcNMjMwOTIxMDU0OTAwWhcNMzMwOTE4MDU0OTAw
+WjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+U2FuIEZyYW5jaXNjbzEfMB0GA1UEAwwWQWRtaW5Ab3JnMS5leGFtcGxlLmNvbTBZ
+MBMGByqGSM49AgEGCCqGSM49AwEHA0IABN9PJgffXheazWF/h33N+AG2BuQN8p58
+erN4o8IA5G7U9qsYbiOdvtImAeAxSCdhZui9NNBtigHeofKAc1cJ4OujTTBLMA4G
+A1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAILJDTAStRMZ/
+IcIUaXZ/QG3MOMURV7yWpXj8Q5l61XjqMAoGCCqGSM49BAMCA0gAMEUCIQDqdJ/m
+F4fJy+bgjtLL736+4WkCFfhkciU0lvtCguhRxAIgAt/gBYP6yOgRJVhDtorteg+s
+H4Zvm1JNda+t4M5Fw9A=
+-----END CERTIFICATE-----
+[36m2023-09-21 12:57:12.560 +07 001b DEBU[0m [msp] [36;1msetupSigningIdentity[0m -> Signing identity expires at 2033-09-18 05:49:00 +0000 UTC
+[36m2023-09-21 12:57:12.560 +07 001c DEBU[0m [msp.identity] [36;1mnewIdentity[0m -> Creating identity instance for cert -----BEGIN CERTIFICATE-----
+MIICGjCCAcCgAwIBAgIRAO49z+beFL4sZEmpz45mOb8wCgYIKoZIzj0EAwIwczEL
+MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG
+cmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh
+Lm9yZzEuZXhhbXBsZS5jb20wHhcNMjMwOTIxMDU0OTAwWhcNMzMwOTE4MDU0OTAw
+WjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN
+U2FuIEZyYW5jaXNjbzEfMB0GA1UEAwwWQWRtaW5Ab3JnMS5leGFtcGxlLmNvbTBZ
+MBMGByqGSM49AgEGCCqGSM49AwEHA0IABN9PJgffXheazWF/h33N+AG2BuQN8p58
+erN4o8IA5G7U9qsYbiOdvtImAeAxSCdhZui9NNBtigHeofKAc1cJ4OujTTBLMA4G
+A1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAILJDTAStRMZ/
+IcIUaXZ/QG3MOMURV7yWpXj8Q5l61XjqMAoGCCqGSM49BAMCA0gAMEUCIQDqdJ/m
+F4fJy+bgjtLL736+4WkCFfhkciU0lvtCguhRxAIgAt/gBYP6yOgRJVhDtorteg+s
+H4Zvm1JNda+t4M5Fw9A=
+-----END CERTIFICATE-----
+[36m2023-09-21 12:57:12.560 +07 001d DEBU[0m [msp] [36;1mValidate[0m -> MSP Org1MSP validating identity
+[36m2023-09-21 12:57:12.560 +07 001e DEBU[0m [msp] [36;1mGetDefaultSigningIdentity[0m -> Obtaining default signing identity
+[36m2023-09-21 12:57:12.560 +07 [grpc] InfoDepth -> DEBU 001[0m [core] [Channel #1] Channel created
+[36m2023-09-21 12:57:12.560 +07 [grpc] InfoDepth -> DEBU 002[0m [core] [Channel #1] original dial target is: "localhost:7051"
+[36m2023-09-21 12:57:12.560 +07 [grpc] InfoDepth -> DEBU 003[0m [core] [Channel #1] parsed dial target is: {Scheme:localhost Authority: Endpoint:7051 URL:{Scheme:localhost Opaque:7051 User: Host: Path: RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}
+[36m2023-09-21 12:57:12.560 +07 [grpc] InfoDepth -> DEBU 004[0m [core] [Channel #1] fallback to scheme "passthrough"
+[36m2023-09-21 12:57:12.560 +07 [grpc] InfoDepth -> DEBU 005[0m [core] [Channel #1] parsed dial target is: {Scheme:passthrough Authority: Endpoint:localhost:7051 URL:{Scheme:passthrough Opaque: User: Host: Path:/localhost:7051 RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}
+[36m2023-09-21 12:57:12.560 +07 [grpc] InfoDepth -> DEBU 006[0m [core] [Channel #1] Channel authority set to "localhost:7051"
+[36m2023-09-21 12:57:12.561 +07 [grpc] InfoDepth -> DEBU 007[0m [core] [Channel #1] Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "localhost:7051",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Type": 0,
+      "Metadata": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)
+[36m2023-09-21 12:57:12.561 +07 [grpc] InfoDepth -> DEBU 008[0m [core] [Channel #1] Channel switches to new LB policy "pick_first"
+[36m2023-09-21 12:57:12.561 +07 [grpc] InfoDepth -> DEBU 009[0m [core] [Channel #1 SubChannel #2] Subchannel created
+[36m2023-09-21 12:57:12.561 +07 [grpc] InfoDepth -> DEBU 00a[0m [core] [Channel #1 SubChannel #2] Subchannel Connectivity change to CONNECTING
+[36m2023-09-21 12:57:12.561 +07 [grpc] InfoDepth -> DEBU 00b[0m [core] [Channel #1 SubChannel #2] Subchannel picks a new address "localhost:7051" to connect
+[36m2023-09-21 12:57:12.561 +07 [grpc] InfoDepth -> DEBU 00c[0m [core] pickfirstBalancer: UpdateSubConnState: 0x140003b7ea0, {CONNECTING <nil>}
+[36m2023-09-21 12:57:12.561 +07 [grpc] InfoDepth -> DEBU 00d[0m [core] [Channel #1] Channel Connectivity change to CONNECTING
+[36m2023-09-21 12:57:12.569 +07 [grpc] InfoDepth -> DEBU 00e[0m [core] CPU time info is unavailable on non-linux environments.
+[36m2023-09-21 12:57:12.569 +07 001f DEBU[0m [comm.tls] [36;1mClientHandshake[0m -> Client TLS handshake completed in 655.125µs remoteaddress=127.0.0.1:7051
+[36m2023-09-21 12:57:12.569 +07 [grpc] InfoDepth -> DEBU 00f[0m [core] [Channel #1 SubChannel #2] Subchannel Connectivity change to READY
+[36m2023-09-21 12:57:12.569 +07 [grpc] InfoDepth -> DEBU 010[0m [core] pickfirstBalancer: UpdateSubConnState: 0x140003b7ea0, {READY <nil>}
+[36m2023-09-21 12:57:12.569 +07 [grpc] InfoDepth -> DEBU 011[0m [core] [Channel #1] Channel Connectivity change to READY
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 012[0m [core] [Channel #4] Channel created
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 013[0m [core] [Channel #4] original dial target is: "localhost:7051"
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 014[0m [core] [Channel #4] parsed dial target is: {Scheme:localhost Authority: Endpoint:7051 URL:{Scheme:localhost Opaque:7051 User: Host: Path: RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 015[0m [core] [Channel #4] fallback to scheme "passthrough"
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 016[0m [core] [Channel #4] parsed dial target is: {Scheme:passthrough Authority: Endpoint:localhost:7051 URL:{Scheme:passthrough Opaque: User: Host: Path:/localhost:7051 RawPath: OmitHost:false ForceQuery:false RawQuery: Fragment: RawFragment:}}
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 017[0m [core] [Channel #4] Channel authority set to "localhost:7051"
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 018[0m [core] [Channel #4] Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "localhost:7051",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Type": 0,
+      "Metadata": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 019[0m [core] [Channel #4] Channel switches to new LB policy "pick_first"
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 01a[0m [core] [Channel #4 SubChannel #5] Subchannel created
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 01b[0m [core] [Channel #4 SubChannel #5] Subchannel Connectivity change to CONNECTING
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 01c[0m [core] [Channel #4 SubChannel #5] Subchannel picks a new address "localhost:7051" to connect
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 01d[0m [core] pickfirstBalancer: UpdateSubConnState: 0x140005158f0, {CONNECTING <nil>}
+[36m2023-09-21 12:57:12.570 +07 [grpc] InfoDepth -> DEBU 01e[0m [core] [Channel #4] Channel Connectivity change to CONNECTING
+[36m2023-09-21 12:57:12.571 +07 0020 DEBU[0m [comm.tls] [36;1mClientHandshake[0m -> Client TLS handshake completed in 532.125µs remoteaddress=127.0.0.1:7051
+[36m2023-09-21 12:57:12.571 +07 [grpc] InfoDepth -> DEBU 01f[0m [core] [Channel #4 SubChannel #5] Subchannel Connectivity change to READY
+[36m2023-09-21 12:57:12.571 +07 [grpc] InfoDepth -> DEBU 020[0m [core] pickfirstBalancer: UpdateSubConnState: 0x140005158f0, {READY <nil>}
+[36m2023-09-21 12:57:12.571 +07 [grpc] InfoDepth -> DEBU 021[0m [core] [Channel #4] Channel Connectivity change to READY
+[36m2023-09-21 12:57:12.571 +07 0021 DEBU[0m [msp.identity] [36;1mSign[0m -> Sign: plaintext: 0AA6070A6208031A0C08B8B6AFA80610...6C6C6564436861696E636F6465730A00 
+[36m2023-09-21 12:57:12.571 +07 0022 DEBU[0m [msp.identity] [36;1mSign[0m -> Sign: digest: EAE015E69C16F3C8EE0E61071BA73D960AD017325BB47017D175F05E41525BEE 
+Installed chaincodes on peer:
+Package ID: mycc:9f079e0c1cddbd43f9303915d856647a8a4f86959b30a538d168938e6c9ef425, Label: mycc

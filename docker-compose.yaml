@@ -1,0 +1,32 @@
+version: "3.5"
+
+# networks:
+#   app-network:
+#     ipam:
+#       config:
+#         - subnet: 172.25.0.0/24
+
+services:
+  server-1:
+    environment:
+      COUCHDB_PASSWORD: 123
+      COUCHDB_USER: admin
+    image: couchdb
+    restart: always
+    # networks:
+    #   app-network:
+    #     ipv4_address: 172.25.0.10
+    ports:
+      - "5984:5984"
+
+  server-2:
+    environment:
+      COUCHDB_PASSWORD: 123
+      COUCHDB_USER: admin
+    image: couchdb
+    restart: always
+    # networks:
+    #   app-network:
+    #     ipv4_address: 172.25.0.20
+    ports:
+      - "5985:5984"
